@@ -1,0 +1,72 @@
+crosoft Windows [Version 10.0.16299.64]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\micha>d:
+
+D:\>dir
+ D 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: F6CE-8F05
+
+ D:\ 디렉터리
+
+2018-05-16  오후 11:42    <DIR>          Michael
+2018-04-29  오전 09:31    <DIR>          RansomDefenderBackup
+               0개 파일                   0 바이트
+               2개 디렉터리  977,816,129,536 바이트 남음
+
+D:\>cd Michael
+
+D:\Michael>dir
+ D 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: F6CE-8F05
+
+ D:\Michael 디렉터리
+
+2018-05-16  오후 11:42    <DIR>          .
+2018-05-16  오후 11:42    <DIR>          ..
+2018-05-07  오후 11:26            15,194 20180507-1.txt
+2018-05-07  오후 01:31             3,286 20180507-2-JPype.txt
+2018-05-16  오후 11:42             1,245 20180516.txt
+2018-06-12  오전 12:32    <DIR>          AndroidStudioProjects
+2018-05-07  오후 01:06    <DIR>          ChatScript-8.2
+2018-04-26  오전 01:33    <DIR>          Data
+2018-04-28  오후 10:34    <DIR>          Python
+               3개 파일              19,725 바이트
+               6개 디렉터리  977,816,129,536 바이트 남음
+
+D:\Michael>mkdir gitDir
+
+D:\Michael>cd gitDir
+
+D:\Michael\gitDir>git init
+Initialized empty Git repository in D:/Michael/gitDir/.git/
+
+D:\Michael\gitDir>dir
+ D 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: F6CE-8F05
+
+ D:\Michael\gitDir 디렉터리
+
+2018-06-14  오전 02:08    <DIR>          .
+2018-06-14  오전 02:08    <DIR>          ..
+               0개 파일                   0 바이트
+               2개 디렉터리  977,816,088,576 바이트 남음
+
+D:\Michael\gitDir>dir
+ D 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: F6CE-8F05
+
+ D:\Michael\gitDir 디렉터리
+
+2018-06-14  오전 02:08    <DIR>          .
+2018-06-14  오전 02:08    <DIR>          ..
+               0개 파일                   0 바이트
+               2개 디렉터리  977,816,088,576 바이트 남음
+
+D:\Michael\gitDir>git remote add origin https://github.com/cwsbear1/gitDir.git
+
+D:\Michael\gitDir>git remote -v
+origin  https://github.com/cwsbear1/gitDir.git (fetch)
+origin  https://github.com/cwsbear1/gitDir.git (push)
+
+D:\Michael\gitDir>
